@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Alzheimers_Disease_Logo.svg/1024px-Alzheimers_Disease_Logo.svg.png" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f0f8;
+            margin: 0;
+            padding: 0;
+            color: #3e2a51;
+        }
+        header {
+            background-color: #7e57c2;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        /* Logo lazo morado a la izquierda del texto */
+        header svg {
+            width: 40px;
+            height: 40px;
+        }
+        nav {
+            background-color: #5e35b1;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #d1b3ff;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        main img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            color: #7e57c2;
+            border-bottom: 2px solid #7e57c2;
+            padding-bottom: 0.3rem;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        form {
+            background-color: #e1d6f2;
+            padding: 1rem;
+            border-radius: 8px;
+            max-width: 400px;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.4rem;
+            margin-bottom: 1rem;
+            border: 1px solid #7e57c2;
+            border-radius: 4px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #7e57c2;
+            color: white;
+            border: none;
+            padding: 0.6rem 1.2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #5e35b1;
+        }
+        footer {
+            background-color: #5e35b1;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Símbolo de Alzheimer: lazo morado SVG -->
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Símbolo Alzheimer" role="img">
+            <path d="M32 10C26 4 18 8 18 16C18 24 26 40 32 48C38 40 46 24 46 16C46 8 38 4 32 10Z" fill="#6a1b9a"/>
+            <path d="M32 10C38 4 46 8 46 16C46 24 38 40 32 48C26 40 18 24 18 16C18 8 26 4 32 10Z" stroke="#fff" stroke-width="3"/>
+        </svg>
+        ReMind
+    </header>
+    <nav>
+        <a href="#que-es">Qué es</a>
+        <a href="#sintomas">Síntomas</a>
+        <a href="#prevencion">Prevención</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="que-es">
+            <h2>¿Qué es el Alzheimer?</h2>
+            <p>
+                El Alzheimer es una enfermedad neurodegenerativa progresiva que deteriora la memoria, el pensamiento y el comportamiento. En Puerto Rico, se estima que más de 60,000 personas viven con esta condición, y se proyecta que ese número continúe aumentando.
+            </p>
+        </section>
+        <section id="sintomas">
+            <h2>Síntomas comunes</h2>
+            <ul>
+                <li>Pérdida de memoria reciente</li>
+                <li>Dificultad para resolver problemas o completar tareas conocidas</li>
+                <li>Desorientación en tiempo y espacio</li>
+                <li>Problemas de comunicación</li>
+                <li>Alteraciones del juicio y comportamiento</li>
+            </ul>
+        </section>
+        <section id="prevencion">
+            <h2>Prevención</h2>
+            <p>
+                Aunque no existe una cura definitiva, es posible reducir el riesgo mediante:
+            </p>
+            <ul>
+                <li>Ejercicio físico regular</li>
+                <li>Dieta saludable tipo mediterránea</li>
+                <li>Actividades que estimulen el cerebro, como leer o jugar ajedrez</li>
+                <li>Socialización constante y chequeos médicos regulares</li>
+            </ul>
+        </section>
+        <section id="recursos">
+            <h2>Recursos para cuidadores y pacientes</h2>
+            <p>
+                Cuidar a una persona con Alzheimer requiere apoyo y orientación. En Puerto Rico, organizaciones como la <strong>Asociación de Alzheimer de Puerto Rico</strong> ofrecen ayuda educativa, emocional y comunitaria.
+            </p>
+            <ul>
+                <li><a href="https://www.alz.org/pr/" target="_blank">Asociación de Alzheimer de Puerto Rico</a></li>
+                <li><a href="https://www.alz.org/help-support/caregiving" target="_blank">Guía para cuidadores de Alzheimer (Alzheimer's Association)</a></li>
+                <li><a href="https://www.cuidadorespr.org/" target="_blank">Plataforma de apoyo para cuidadores en Puerto Rico</a></li>
+                <li>Programas de respiro y apoyo psicológico en hospitales y centros comunitarios</li>
+                <li>Redes sociales locales para compartir experiencias y consejos</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 ReMind - Todos los derechos reservados
+    </footer>
+</body>
+</html>
